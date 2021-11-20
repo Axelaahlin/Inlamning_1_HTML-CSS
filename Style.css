@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+
+body{
+  background-color: #ffdfd5;
+  display: flex;
+  justify-content: center;
+}
+
+#wrapper{
+  width: 70%;
+  height: 2240px;
+  display: flex;
+  border-radius: 25px 25px 0px 0px;
+  flex-direction: column;
+  margin: 50px;
+  box-shadow: 10px 5px 5px ;
+}
+
+#header{
+  width: 100%;
+  height: 125px;
+  background-color: wheat;
+  border-radius: 25px 25px 0px 0px;
+  display: flex;
+  align-items: center;
+  border-bottom: solid black 4px;
+}
+
+#webbikon{
+  height: 75px;
+  width: 75px;
+  margin: 0px 50px;
+}
+
+#main{
+  width: 100%;
+  height: 1875px;
+  display: flex;
+  flex-direction: column;
+}
+
+.recept{
+  background-color: wheat;
+  border-bottom: solid black 4px;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sektion{
+  width: 55%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside{
+  width: 45%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.funFact{
+  width: 50%;
+  height: 200px;
+  font-size: 15px;
+  justify-self: center;
+  margin-top: 50px;
+  border: dashed black 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+
+.länkar{
+  width: 70%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.bilddiv{
+  width: 100%;
+  height: 275px;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+}
+
+.recepttitel{
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2{
+  color:black;
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+.ingredienser{
+  display: flex;
+  height: auto;
+  width: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+
+
+
+li{
+  color: black;
+  margin-bottom: 10px;  
+}
+
+h3{
+  color: black;
+  margin: 10px 0px 0px 0px;
+  text-decoration: underline 1px;
+}
+
+.matbild{
+  width: 80%;
+  margin-right: 20px;
+  border: solid black 3px;
+  box-shadow: grey 5px 5px 5px;
+}
+
+.instruktioner{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  border: solid black 1px;
+  padding: 5px 10px;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  box-shadow: grey 5px 5px 5px;
+  
+}
+
+h1, h2, h3, h4{
+  font-family: 'Merriweather', serif;
+}
