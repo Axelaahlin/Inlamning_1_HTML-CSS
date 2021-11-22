@@ -14,7 +14,7 @@ body{
   display: flex;
   border-radius: 25px 25px 0px 0px;
   flex-direction: column;
-  margin: 50px; 
+  margin: 50px;
   box-shadow: 10px 5px 5px ;
 }
 
@@ -140,8 +140,7 @@ h3{
 .matbild{
   width: 80%;
   margin-right: 20px;
-  border: solid black 3px;
-  box-shadow: grey 5px 5px 5px;
+  box-shadow: black 5px 5px 5px;
 }
 
 .instruktioner{
